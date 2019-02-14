@@ -1,0 +1,189 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box; /* Postscript */
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  vertical-align: top;
+}
+
+mark {
+  background-color: #ffea00;
+}
+
+button,
+input[type=submit] {
+  cursor: pointer;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
+  background-color: #f1f1f2;
+  line-height: 1.6;
+}
+
+
+.main {
+  margin: 90px auto;
+  padding: 90px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.05);
+}
+h1 {
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 1.7;
+}
+.description {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.main_vis {
+  background-color: #f8f8f8;
+  height: 200px;
+  width: 100%;
+}
+.detail_lists li {
+  display: table;
+  margin-bottom: 10px;
+}
+.detail_lists li:last-child {
+  margin-bottom: 0;
+}
+.wrp_detail_lists {
+  margin-top: 90px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.detail_lists_body {
+  display: inline-block;
+  border: 2px solid lightblue;
+  border-radius: 2px;
+  padding: 30px;
+}
+.detail_lists_body {
+  line-height: 1;
+}
+.detail_lists {
+   display: inline-block;
+   padding: 10px 30px;
+   text-align: left;
+   vertical-align: bottom;
+}
+.detail_lists .detail_th,
+.detail_lists .detail_td {
+  display: table-cell;
+  line-height: 1.5;
+}
+.detail_lists .detail_th {
+  font-weight: bold;
+  width: 7em;
+}
+h2 {
+  font-size: 22px;
+  font-weight: bold;
+  padding-bottom: 13px;
+  border-bottom: 1px solid #222;
+  margin-bottom: 40px;
+}
+.box {
+  margin-top: 90px;
+}
+.box_lists {
+  margin-left: 1em;
+  list-style: disc;
+}
+.box .seminar_desc {
+   line-height: 1.7;
+}
+.box .seminar_desc p {
+  margin-top: 20px;
+}
+
+/* スマホ　*/
+@media screen and (max-width: 736px) {
+  body, html {
+    font-size: 14px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  .wrp_detail_lists {
+    margin-top: 50px;
+  }
+  .main {
+    width: 100%;
+    padding: 20px;
+  }
+  .detail_lists_body {
+    display: block;
+  }
+  .detail_lists {
+    padding: 10px;
+    display: block;
+  }
+  .detail_lists li {
+    display: block;
+  }
+  .detail_lists .detail_th, .detail_lists .detail_td {
+    display: block;
+  }
+  .box {
+    margin-top: 50px;
+  }
+  h2 {
+    margin-bottom: 30px;
+  }
+}
+
+.freebirdFormviewerViewFormCard.exportFormCard {
+  box-shadow: none !important;
+}
