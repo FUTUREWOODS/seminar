@@ -69,10 +69,9 @@ body {
   line-height: 1.6;
 }
 
-
 .main {
-  margin: 90px auto;
-  padding: 90px;
+  /* margin: 90px auto; */
+  padding: 40px;
   background-color: #fff;
   box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.05);
 }
@@ -88,8 +87,12 @@ h1 {
 }
 .main_vis {
   background-color: #f8f8f8;
-  height: 200px;
   width: 100%;
+}
+.main_image {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
 }
 .detail_lists li {
   display: table;
@@ -99,7 +102,7 @@ h1 {
   margin-bottom: 0;
 }
 .wrp_detail_lists {
-  margin-top: 90px;
+  margin-top: 60px;
   text-align: center;
   margin-bottom: 50px;
 }
@@ -163,7 +166,11 @@ h2 {
     width: 100%;
     padding: 20px;
   }
+  .main_image {
+    height: 200px;
+  }
   .detail_lists_body {
+    padding: 15px;
     display: block;
   }
   .detail_lists {
