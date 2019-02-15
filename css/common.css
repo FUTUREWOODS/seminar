@@ -150,6 +150,52 @@ h2 {
 .box .seminar_desc p {
   margin-top: 20px;
 }
+.box .instructor_info {
+  position: relative;
+  display: table;  
+  padding-bottom: 30px;
+  border-bottom: 1px solid #eee;
+  width: 100%;
+}
+.box .instructor_info:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 10%;
+  height: 1px;
+  background-color: lightblue;
+}
+.box .instructor_info .pic,
+.box .instructor_info .name {
+  display: table-cell;
+}
+.box .instructor_info .pic {
+  width: 200px;
+  padding-right: 20px;
+}
+.box .instructor_info .pic img {
+  width: 100%;
+}
+.box .instructor_info .name {
+  font-weight: bold;
+  font-size: 18px;
+}
+.box .instructor_info .name span {
+  display: block;
+  font-weight: normal;
+  font-size: 16px;
+}
+.box .instructor_block {
+  margin-bottom: 20px;
+  background-color: #fbfbfb;
+  padding: 20px;
+}
+.box .instructor_desc {
+  margin-top: 25px;
+  line-height: 1.7;
+}
 
 /* スマホ　*/
 @media screen and (max-width: 736px) {
@@ -157,7 +203,7 @@ h2 {
     font-size: 14px;
   }
   h1 {
-    font-size: 20px;
+    font-size: 18px;
   }
   .wrp_detail_lists {
     margin-top: 50px;
@@ -188,6 +234,33 @@ h2 {
   }
   h2 {
     margin-bottom: 30px;
+  }
+  .box .instructor_info {
+    display: block;
+    padding-bottom: 20px;
+  }
+  .box .instructor_info .pic,
+  .box .instructor_info .name {
+    display: block;
+  }
+  .box .instructor_info .pic {
+    margin: 0 auto 20px;
+    padding-right: 0;
+  }
+  .box .instructor_block {
+    padding: 20px 10px;
+  }
+  .box .instructor_desc {
+    margin-top: 15px;
+  }
+  .box .instructor_info .name {
+    font-size: 16px;
+  }
+  .box .instructor_info .name span {
+    font-size: 14px;
+  }
+  .box .instructor_info:after {
+    width: 30%;
   }
 }
 
