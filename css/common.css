@@ -195,6 +195,7 @@ h2 {
   font-size: 16px;
 }
 .box .instructor_block {
+  min-height: 600px;
   margin-bottom: 20px;
   background-color: #fbfbfb;
   padding: 20px;
